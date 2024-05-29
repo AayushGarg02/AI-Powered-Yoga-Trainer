@@ -1,0 +1,101 @@
+/* Ensure the body and html take full height and width */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* Make the container responsive */
+.container {
+    width: 100%; /* Adjust width percentage as needed */
+    height: 100%; /* Adjust height percentage as needed */
+    max-width: 100%; /* Adjust max-width percentage as needed */
+    max-height: 100%; /* Adjust max-height percentage as needed */
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    padding: 1em;
+    box-sizing: border-box;
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 7.5%; /* Adjust width percentage as needed (half of original) */
+    margin-bottom: 1%; /* Adjust margin percentage as needed */
+}
+
+h1 {
+    margin-bottom: 1%; /* Adjust margin percentage as needed */
+    font-size: 3vw; /* Adjust font-size based on viewport width (1.5 times original) */
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 0.5%; /* Adjust margin percentage as needed */
+    font-size: 3vw; /* Adjust font-size based on viewport width */
+    color: #2E8B57;
+}
+
+h3 {
+    margin-bottom: 1%; /* Adjust margin percentage as needed */
+    font-size: 1.5vw; /* Adjust font-size based on viewport width */
+    color: #2E8B57;
+}
+
+.presented-by, .urban-yogi {
+    margin-bottom: 1%; /* Adjust margin percentage as needed */
+}
+
+.presented-by h4, .urban-yogi h4 {
+    margin-bottom: 0.5%; /* Adjust margin percentage as needed */
+    font-size: 1.8vw; /* Adjust font-size based on viewport width */
+    color: #D32F2F;
+}
+
+.presented-by ul {
+    list-style: none;
+    padding: 0;
+}
+
+.presented-by li {
+    margin-bottom: 0.5%; /* Adjust margin percentage as needed */
+}
+
+.urban-yogi p {
+    margin-bottom: 1%; /* Adjust margin percentage as needed */
+    color: #555;
+}
+
+.date-venue {
+    margin-bottom: 1%; /* Adjust margin percentage as needed */
+    font-size: 1.2vw; /* Adjust font-size based on viewport width */
+    color: #555;
+}
+
+button {
+    padding: 0.5% 1%; /* Adjust padding percentage as needed */
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2vw; /* Adjust font-size based on viewport width */
+}
+
+button:hover {
+    background-color: #3CB371;
+}
